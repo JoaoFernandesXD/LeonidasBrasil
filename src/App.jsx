@@ -1,11 +1,15 @@
 import './App.css'
+import Header from './components/Header/Header'
+
+
+
 
 function App() {
 
 
   return (
     <>
-    Leonidas Brasil V1
+    <Header></Header>
     </>
   )
 }
