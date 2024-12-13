@@ -1,6 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', Arial, sans-serif;
+}
+
 :root {
-    margin:0;
-    padding: 0;
-    box-sizing: border-box;
+    --cor-destaque: #FFAD89; 
+    --azul-claro: #889EDB;   
+    --roxo-profundo: #763D65;
+    --cinza-azulado: #8184A9; 
+    --magenta-vivo: #B62A77; 
+}
+a {
+  text-decoration: none; 
 }
 
