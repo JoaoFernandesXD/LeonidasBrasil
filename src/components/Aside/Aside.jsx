@@ -4,9 +4,9 @@ import Slide from '../Slide/Slide';
 function Aside(){
     return(
         <>
-        <div className='aside'>
+        <aside className='aside'>
             <Slide></Slide>
-        </div>
+        </aside>
         </>
     )
 }

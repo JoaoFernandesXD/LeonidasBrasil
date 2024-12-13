@@ -5,11 +5,11 @@ import '../Main/Main.css';
 function Main(){
     return(
         <>
-        <div className='container'>
+        <main className='container'>
             <div className='row'>
                 <Aside></Aside>
             </div>
-        </div>
+        </main>
         </>
     )
 }
