@@ -27,6 +27,7 @@
     transition: color 0.3s;
     display: flex;
     align-items: center;
+    gap:5px;
 }
 .main-nav ul a {
     height: 100%;
@@ -50,8 +51,11 @@ a:nth-child(even) {
     color: #fff;
     font-size: 13px;
     font-weight: 700;
-    position: relative;
     transition: opacity 0.2s;
     border: 0;
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
 }
