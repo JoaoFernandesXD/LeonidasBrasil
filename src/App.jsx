@@ -1,5 +1,7 @@
 import Header from './components/Header/Header'
+import Main from './components/Main/Main'
 import MainNav from './components/MainNav/MainNav'
+
 
 function App() {
 
@@ -8,6 +10,7 @@ function App() {
     <>
     <MainNav />
     <Header />
+    <Main></Main>
     </>
   )
 }

@@ -1,0 +1,11 @@
+.container {
+    width: 100%;
+    max-width: 1140px;
+    display: flex;
+    margin:0 auto;
+    justify-content: center;
+}
+.container .row {
+    width: 100%;
+    background-color: rgb(199, 179, 179);
+}
