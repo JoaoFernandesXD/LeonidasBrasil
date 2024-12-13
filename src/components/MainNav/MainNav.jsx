@@ -13,27 +13,15 @@ function MainNav() {
         <>
             <div className='main-nav'>
                 <div className='row'>
-                    <ul className="d-flex">
-                        <li className="nav--item">
-                            <a href="/inicio"><IoHome /> Início</a>
-                        </li>
-                        <li className="nav--item">
-                            <a href="/noticias"><RiNewsFill /> Notícias</a>
-                        </li>
-                        <li className="nav--item">
-                            <a href="#"><RiSpeakFill /> Rumores</a>
-                        </li>
-                        <li className="nav--item">
-                            <a href="#"><PiDevicesFill /> Plataformas</a>
-                        </li>
-                        <li className="nav--item">
-                            <a href="#"><MdPoll /> Enquetes</a>
-                        </li>
-                        <li className="nav--item trigger--side-nav">
-                            <a href="#"><GiHamburgerMenu /> Extras</a>
-                        </li>
-                    </ul>
+                <ul className="d-flex">
+                    <a href="/inicio"><li className="nav--item"><IoHome /> Início</li></a>
+                    <a href="/noticias"><li className="nav--item"><RiNewsFill /> Noticias</li></a>
+                    <a href="#"><li className="nav--item"><RiSpeakFill /> Rumores</li></a>
+                    <a href="#"><li className="nav--item"><PiDevicesFill /> Plataformas </li></a>
+                    <a href="#"><li className="nav--item"><MdPoll /> Enquetes</li></a>
+                    <a className="trigger--side-nav"><li className="nav--item"><GiHamburgerMenu /> Extras</li></a>
                     <button className="nav--btn"><IoLogIn /> Login</button>
+                </ul>
                 </div>
             </div>
         </>
