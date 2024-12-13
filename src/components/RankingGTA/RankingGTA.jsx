@@ -20,5 +20,4 @@ function RankingGTA(){
         </>
     )
 }
-
 export default RankingGTA;

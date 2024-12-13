@@ -8,6 +8,7 @@ function Aside(){
         <aside className='aside'>
             <Slide></Slide>
             <RankingGTA></RankingGTA>
+            vamos continuar?
         </aside>
     )
 }

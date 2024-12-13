@@ -1,0 +1,17 @@
+footer {
+    width: 100%;
+    height: 350px;
+    margin-top: 25px;
+    background-color: var(--azul-claro);
+    text-align: center;
+    color: #fff;
+    padding-bottom: 25px;
+}
+footer .credits {
+    height: 40px;
+    width: 100%;
+    background-color: var(--cinza-azulado);
+    font-size: 12px;
+    line-height: 40px;
+    margin-bottom: 10px;
+}
