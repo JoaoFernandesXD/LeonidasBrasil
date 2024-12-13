@@ -1,11 +1,13 @@
+import Aside from '../Aside/Aside';
 import '../Main/Main.css';
+
 
 function Main(){
     return(
         <>
         <div className='container'>
             <div className='row'>
-                oi
+                <Aside></Aside>
             </div>
         </div>
         </>
