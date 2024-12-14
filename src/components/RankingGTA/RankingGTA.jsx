@@ -1,5 +1,7 @@
 import '../RankingGTA/RankingGTA.css';
 import SingleRankingGTA from '../SingleRankingGTA/SingleRankingGTA';
+
+
 function RankingGTA(){
     return(
         <>
@@ -20,4 +22,6 @@ function RankingGTA(){
         </>
     )
 }
+
+
 export default RankingGTA;
