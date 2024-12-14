@@ -10,7 +10,9 @@ function Main(){
         <>
         <main className='container_main'>
             <Aside></Aside>
-            <MainPrincipal></MainPrincipal>
+            <MainPrincipal>
+                
+            </MainPrincipal>
         </main>
         <Footer />
         </>
