@@ -1,17 +1,44 @@
 footer {
     width: 100%;
-    height: 350px;
-    margin-top: 25px;
+    height: 250px;
     background-color: var(--azul-claro);
     text-align: center;
     color: #fff;
     padding-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 footer .credits {
     height: 40px;
     width: 100%;
     background-color: var(--cinza-azulado);
     font-size: 12px;
-    line-height: 40px;
     margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer .container__footer{
+    max-width: 1100px;
+    width: 100%;
+    height: auto;
+    margin:0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container__medias_sociais {
+    flex-direction:row;
+}
+footer .copyright {
+    width: 100%;
+    font-size: 12px;
+    margin: 10px 0;
+    padding: 10px 0;
+    border-top: 2px solid rgba(255, 255, 255, .8);
+    border-bottom: 2px solid rgba(255, 255, 255, .8);
+}
+footer .rockstargames {
+    font-size: 12px;
 }
