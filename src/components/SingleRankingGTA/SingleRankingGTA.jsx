@@ -4,9 +4,9 @@ import { FaCalendar } from "react-icons/fa";
 import { IoCloudDownloadSharp } from "react-icons/io5";
 import { FaStop } from "react-icons/fa";
 
-
 /* tippy.js */
 import Tippy from '@tippyjs/react/headless';
+
 
 
 function SingleRankingGTA(props){
@@ -19,7 +19,7 @@ function SingleRankingGTA(props){
                     <p>{props.name}</p>
                     <div className='info__single__tag'>
                         <div className='container__info__tag'>
-                            <Tippy render={attrs => ( <div className="box" tabIndex="-1" {...attrs}> <p>{props.downloads} de vendas</p><div id="arrow" data-popper-arrow></div></div>)}><h5><IoCloudDownloadSharp />{props.downloads}</h5></Tippy>
+                           <h5><IoCloudDownloadSharp />{props.downloads}</h5>
                         </div>
                         <div className='container__info__tag'>
                             <Tippy render={attrs => ( <div className="box" tabIndex="-1" {...attrs}> <p>Lançado no ano de {props.years}</p><div id="arrow" data-popper-arrow></div></div>)}><h5><FaCalendar />{props.years}</h5></Tippy>
