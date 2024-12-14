@@ -1,7 +1,6 @@
 .container_ranking {
     width: 100%;
     height: auto;
-    margin-top: 25px;
     display: flex;
     flex-direction: column;
     gap: 15px;
