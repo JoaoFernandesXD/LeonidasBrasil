@@ -13,7 +13,7 @@ footer .credits {
     height: 40px;
     width: 100%;
     background-color: var(--cinza-azulado);
-    font-size: 12rem;
+    font-size: 1.2rem;
     margin-bottom: 10px;
     display: flex;
     align-items: center;
@@ -33,12 +33,12 @@ footer .container__footer{
 }
 footer .copyright {
     width: 100%;
-    font-size: 12rem;
+    font-size: 1.2rem;
     margin: 10px 0;
     padding: 10px 0;
     border-top: 2px solid rgba(255, 255, 255, .8);
     border-bottom: 2px solid rgba(255, 255, 255, .8);
 }
 footer .rockstargames {
-    font-size: 12rem;
+    font-size: 1.2rem;
 }
