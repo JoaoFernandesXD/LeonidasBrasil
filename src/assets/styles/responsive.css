@@ -45,4 +45,10 @@
     .main-nav .nav--item {
         font-size: 0.9rem;
     }
+    .container__text strong {
+        font-size: 1rem !important;
+    }
+    .container__text {
+        font-size:1rem !important;
+    }
 }
