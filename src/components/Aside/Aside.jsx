@@ -8,12 +8,8 @@ function Aside(){
         <aside className='aside'>
             <Slide></Slide>
             <RankingGTA></RankingGTA>
-            <TwitterTimelineEmbed
-            sourceType="profile"
-            screenName="RockstarGames"
-            options={{height: 400}}
-            />
-            aqui vai ter mais coisa....
+            
+            aqui vai ter mais coisa...
         </aside>
     )
 }
