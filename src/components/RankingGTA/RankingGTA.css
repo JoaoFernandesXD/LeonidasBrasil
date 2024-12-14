@@ -17,3 +17,10 @@
     color: var(--azul-claro);
     line-height: 15px;
 }
+.container__list_single {
+    padding: 5px;
+    background-color: white;
+    border-radius: 10px;
+    filter: drop-shadow(0 0 5.5px rgba(0, 0, 0, 0.010));
+}
+
