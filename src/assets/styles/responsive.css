@@ -36,6 +36,14 @@
     .container__text {
         font-size: 1.2rem !important;
     }
+    .container__alert {
+        padding: 15px;
+        gap: 10px;
+    }
+    .container__alert img {
+        max-width: 25px;
+        height: 25px;
+    }
 
 }
 
