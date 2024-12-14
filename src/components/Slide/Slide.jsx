@@ -15,7 +15,7 @@ function Slide(){
             <Swiper spaceBetween={50} slidesPerView={1} loop={true} autoplay={{delay: 9000, disableOnInteraction: false, }} modules={[Autoplay, Navigation]}>
                 <SwiperSlide>
                     <div className='container__conteudo'>
-                        <img src='https://media-rockstargames-com.akamaized.net/mfe6/prod/__common/img/71d4d17edcd49703a5ea446cc0e588e6.jpg'></img>
+                        <img src='https://www.gtavice.net/content/images/golden-joystick-awards-winner-gta-vi-most-wanted-game.jpeg'></img>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
