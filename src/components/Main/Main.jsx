@@ -1,5 +1,5 @@
 import Aside from '../Aside/Aside';
-import Footer from '../Footer/footer';
+import Footer from '../Footer/rodape';
 import '../Main/Main.css';
 
 
