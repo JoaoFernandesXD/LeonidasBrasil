@@ -45,8 +45,15 @@
     align-items: center;
     justify-content: center;
     color: var(--azul-claro);
+    cursor: pointer;
 }
 .arrow--pagination:hover {
     background-color: #eee;
     transition: 1s;
+}
+.container__hot__rumors_list {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
 }
