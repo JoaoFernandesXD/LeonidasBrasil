@@ -53,6 +53,9 @@
     .container__card_news {
         max-width: 100% !important;
     }
+    .container__card__news__info img{
+        border-radius: 10px;
+    }
 
 }
 
