@@ -10,50 +10,11 @@
     align-items: center;
     padding: 0px 15px 0 15px;
 }
-.container__usuario_logado {
-    width: 550px;
-    height: 350px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+.header img {
+    width: 300px;
+    height: auto;
+    transition: all 0.3s ease;
 }
-.container__usuario_logado img {
-    min-width: 212px;
-    height: 150px;
-    margin:0px 10px 0px 10px;
-}
-.botao {
-    width: 100%;
-    max-width: 260px;
-    height: 54px;
-    background-color: #FF537E;
-    border: 0;
-    border-radius: 10px;
-    padding: 0 10px 0 10px;
-    font-size: 1.5rem;
-    font-weight: 600;
-    color: white;
-    cursor: pointer;
-}
-  
-.botao:nth-of-type(2) {
-    background-color: #FF537E; /* Segundo botão */
-}
-  
-  .botao:nth-of-type(3) {
-    background-color: #FF9933; /* Terceiro botão */
-  }
-  
-  .botao:nth-of-type(4) {
-    background-color: #8184A9; /* Quarto botão */
-}
-.container__usuario_logado_botao {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-    gap:25px;
+.header img:hover {
+    opacity: 0.8;
 }
