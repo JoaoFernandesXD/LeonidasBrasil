@@ -27,9 +27,6 @@ function News(){
             <SingleCardNews titulo="GTA 6 chega em fevereiro de 2025" image="https://t2.tudocdn.net/734023" categoria="Rumores"></SingleCardNews>
             <SingleCardNews titulo="GTA 6 chega em fevereiro de 2025" image="https://t2.tudocdn.net/734023" categoria="Rumores"></SingleCardNews>
             <SingleCardNews titulo="GTA 6 chega em fevereiro de 2025" image="https://t2.tudocdn.net/734023" categoria="Rumores"></SingleCardNews>
-            <SingleCardNews titulo="GTA 6 chega em fevereiro de 2025" image="https://t2.tudocdn.net/734023" categoria="Rumores"></SingleCardNews>
-            <SingleCardNews titulo="GTA 6 chega em fevereiro de 2025" image="https://t2.tudocdn.net/734023" categoria="Rumores"></SingleCardNews>
-            <SingleCardNews titulo="GTA 6 chega em fevereiro de 2025" image="https://t2.tudocdn.net/734023" categoria="Rumores"></SingleCardNews>
         </div>
    </section>
     )
