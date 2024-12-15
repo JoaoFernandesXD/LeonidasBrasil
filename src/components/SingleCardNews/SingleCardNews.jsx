@@ -12,7 +12,7 @@ function SingleCardNews(props){
                         <Tooltips value={props.categoria}><p>{props.categoria}</p></Tooltips>
                     </div>
                 </div>
-                <h2 class="container__title__article"><a href="#">{props.titulo}</a></h2>
+                <h2 className="container__title__article"><a href="#">{props.titulo}</a></h2>
             </div>
             <img src={props.image}></img>
         </div>

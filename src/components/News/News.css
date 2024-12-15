@@ -1,0 +1,4 @@
+.list_news {
+    flex-wrap: wrap;
+    gap: 15px;
+}
