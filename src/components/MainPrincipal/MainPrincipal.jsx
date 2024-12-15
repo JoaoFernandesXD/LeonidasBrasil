@@ -1,3 +1,4 @@
+import HotRumors from '../HotRumors/HotRumors';
 import MainAlerta from '../MainAlerta/MainAlerta';
 
 
@@ -7,6 +8,7 @@ function MainPrincipal(){
     return (
             <div className='container'>
                 <MainAlerta></MainAlerta>
+                <HotRumors></HotRumors>
             </div>
     )
 }

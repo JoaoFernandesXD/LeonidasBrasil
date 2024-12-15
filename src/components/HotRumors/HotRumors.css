@@ -1,0 +1,52 @@
+.container__hot_rumors {
+    width: 100%;
+    height: 215px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.container__hot_rumors .row {
+    width: 100%;
+    height: 1px;
+    border-top: 2px solid #eee;
+    margin: 0 auto;
+}
+.hotrumors__info {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 25px 0px 25px;
+    align-items: center;
+}
+.hotrumors__info h2 {
+    display: flex;
+    align-items: center;
+    gap:5px;
+    font-size: 2.0rem;
+    font-weight: 800;
+    color: var(--azul-claro);
+}
+.hotrumors__pagination {
+    width: 71px;
+    height: 32px;
+    border-radius: 20px;
+    border: 1px solid #eee;
+    gap: 5px;
+    display: flex;
+    overflow: hidden;
+}
+.hotrumors__pagination .arrow--pagination {
+    width: 32px;
+    height: 32px;
+    background: transparent;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--azul-claro);
+}
+.arrow--pagination:hover {
+    background-color: #eee;
+    transition: 1s;
+}
