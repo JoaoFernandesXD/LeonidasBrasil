@@ -56,6 +56,9 @@
     .container__card__news__info img{
         border-radius: 10px;
     }
+    .header img {
+        width: 200px !important;
+    }
 
 }
 

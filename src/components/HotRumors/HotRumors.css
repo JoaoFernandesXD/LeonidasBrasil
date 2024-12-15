@@ -52,6 +52,7 @@
     transition: 1s;
 }
 .container__hot__rumors_list {
+    max-width: 825px;
     width: 100%;
     height: auto;
     display: flex;
