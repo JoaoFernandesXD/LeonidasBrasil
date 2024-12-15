@@ -10,7 +10,7 @@ import { FaArrowRight } from "react-icons/fa";
 import { FaVideo } from "react-icons/fa";
 
 
-import SingleCardNews from '../SingleCardNews/SingleCardNews';
+import SingleCardYT from '../SingleCardYT/SingleCardYT';
 
 function ListConteudoYT(){
     return(
@@ -24,9 +24,9 @@ function ListConteudoYT(){
             </div>
         </div>
         <div className='container__hot__rumors_list list_news'>
-            <SingleCardNews titulo="GTA 6 chega em fevereiro de 2025" image="https://t2.tudocdn.net/734023" categoria="Video Youtube"></SingleCardNews>
-            <SingleCardNews titulo="GTA 6 chega em fevereiro de 2025" image="https://img.ibxk.com.br/2024/12/10/10104923135022.jpg" categoria="Video Youtube"></SingleCardNews>
-            <SingleCardNews titulo="GTA 6 chega em fevereiro de 2025" image="https://t2.tudocdn.net/734023" categoria="Video Youtube"></SingleCardNews>
+            <SingleCardYT titulo="GTA 6 chega em fevereiro de 2025" video="https://www.youtube.com/embed/XzxtnFezJxo?si=mjBDMvQxWoq9NhZo" categoria="Video Youtube"></SingleCardYT>
+            <SingleCardYT titulo="GTA 6 chega em fevereiro de 2025" video="https://www.youtube.com/embed/g_vJU4H5WSo?si=s3pVrWStDhYLIBAx" categoria="Video Youtube"></SingleCardYT>
+            <SingleCardYT titulo="GTA 6 chega em fevereiro de 2025" video="https://www.youtube.com/embed/0N-Z7SvJJ6Y?si=0XisEs77nccFknQO" categoria="Video Youtube"></SingleCardYT>
         </div>
    </section>
     )
