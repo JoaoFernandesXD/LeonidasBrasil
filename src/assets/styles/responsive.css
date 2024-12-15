@@ -13,6 +13,9 @@
     .main-nav .nav--item {
         font-size: 1.1rem;
     }
+    .main-nav .nav--item svg {
+        font-size: 2.0rem;
+    }
     .main-nav ul .nav--btn {
         display: none !important;
     }
