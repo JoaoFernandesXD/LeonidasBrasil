@@ -4,8 +4,6 @@ import '../HotRumors/HotRumors.css';
 /* import CSS do Swiper */
 import "swiper/css";
 
-
-
 /* import Swiper */
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";// Importação do módulo Navigation
@@ -26,7 +24,7 @@ function News(){
         <div className='hotrumors__info'>
             <h2><RiNewsFill /> Jornal Leonidas</h2>
             <div className="hotrumors__pagination">
-                    {/* Setas com classes específicas */}
+                
                     <div className="arrow--pagination swiper-button-prev-news">
                         <FaArrowLeft />
                     </div>
@@ -44,7 +42,11 @@ function News(){
                 }}
                 watchSlidesProgress={true}
                 slidesPerView={3} // Exibe 3 slides por linha
-                
+                breakpoints={{
+                    100: { slidesPerView: 1 },
+                    500: { slidesPerView: 2 },
+                    1024: { slidesPerView: 3 },
+                }}
                 className="container__hot__rumors_list list_news"
             >
             <SwiperSlide><SingleCardNews titulo="GTA 6 chega em fevereiro de 2025" image="https://t2.tudocdn.net/734023" categoria="GTA 6"></SingleCardNews></SwiperSlide>

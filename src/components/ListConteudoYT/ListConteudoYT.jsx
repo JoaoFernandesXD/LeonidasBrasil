@@ -43,7 +43,11 @@ function ListConteudoYT(){
                 }}
                 watchSlidesProgress={true}
                 slidesPerView={3} // Exibe 3 slides por linha
-                
+                breakpoints={{
+                    100: { slidesPerView: 1 },
+                    500: { slidesPerView: 2 },
+                    1024: { slidesPerView: 3 },
+                }}
                 className="container__hot__rumors_list list_news"
             >
              <SwiperSlide><SingleCardYT titulo="GTA 6 de ANIMES" video="https://www.youtube.com/embed/T6Vx_BxNWkY?si=zs_xKPXeIztUOhFc" categoria="Video Youtube"></SingleCardYT></SwiperSlide>

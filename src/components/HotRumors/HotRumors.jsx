@@ -37,6 +37,11 @@ function HotRumors() {
                 }}
                 watchSlidesProgress={true}
                 slidesPerView={3}
+                breakpoints={{
+                    100: { slidesPerView: 1 },
+                    500: { slidesPerView: 2 },
+                    1024: { slidesPerView: 3 },
+                }}
                 className="container__hot__rumors_list"
             >
                 {/* Seus slides */}
