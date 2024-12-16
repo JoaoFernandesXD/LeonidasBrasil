@@ -1,13 +1,13 @@
 
 ## Documentação do Projeto LeonidasBrasil
-# Leonidas Brasil é uma ideia de portal interativo que concentra todo o universo do GTA 6 em um só lugar.
+### Leonidas Brasil é uma ideia de portal interativo que concentra todo o universo do GTA 6 em um só lugar.
 
 ## Este script contém as instruções para configurar e rodar o projeto Front-End.
 
-# Requisitos:
+## Requisitos:
 - Node.js instalado
 
-# Passos para rodar o projeto:
+## Passos para rodar o projeto:
 
 1. Clone o repositório:
    git clone 
