@@ -1,4 +1,3 @@
-#!/bin/bash
 
 ## Documentação do Projeto LeonidasBrasil
 # Leonidas Brasil é uma ideia de portal interativo que concentra todo o universo do GTA 6 em um só lugar.
@@ -11,7 +10,7 @@
 # Passos para rodar o projeto:
 
 1. Clone o repositório:
-   git clone <URL_DO_REPOSITORIO>
+   git clone 
 
 2. Acesse o diretório do projeto:
    cd LeonidasBrasil
