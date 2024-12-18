@@ -7,13 +7,13 @@ import { MdPoll } from "react-icons/md";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { IoLogIn } from "react-icons/io5";
 
+
+import ModalOn from '../Modal/Modal';
 import React, { useState } from 'react';
-import { Modal } from 'react-responsive-modal';
-import 'react-responsive-modal/styles.css'; // Importar o CSS padrão da biblioteca
 
 function MainNav() {
 
-    const [open, setOpen] = React.useState(false);
+    const [open, setOpen] = useState(false);
 
     return(
      
@@ -29,7 +29,7 @@ function MainNav() {
                     <button className="nav--btn" onClick={() => setOpen(true)}><IoLogIn /> Login</button>
                 </ul>
                 </div>
-                <Modal open={open} onClose={() => setOpen(false)} center classNames={{ overlay: 'customOverlay', modal: 'customModal' }}>
+                <ModalOn open={open} onClose={() => setOpen(false)}>
                     <div className="modal-content">
                         <h2>Olá, seja bem vindo(a)!</h2>
                         <form className="login-form">
@@ -48,7 +48,7 @@ function MainNav() {
                             <a href="#" className="register-link">Novo usuário? Cadastre-se!</a>
                         </div>
                     </div>
-                </Modal>
+                </ModalOn>
 
             </div>      
     )
