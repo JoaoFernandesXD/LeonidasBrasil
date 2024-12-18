@@ -1,0 +1,107 @@
+
+.customOverlay {
+    background-color: rgba(0, 0, 0, 0.7); /* Ajusta a cor do fundo do overlay */
+    z-index: 10; /* Garanta que está no topo */
+}
+
+.customModal {
+    width: 100%;
+    height: 100vh;
+    border-radius: 10px;
+    background-color: var(--cor-destaque);
+    z-index: 11;
+}
+.container__modal_login {
+    display: flex;
+}
+.container__modal_login_imagem {
+    width: 50%;
+    height: 100vh;
+    background-image: url('https://videos-rockstargames-com.akamaized.net/v4/rkoCtr1r/art/global.jpg');
+    background-position: bottom;
+    background-size: cover;
+
+}
+.container__modal__form {
+    width: 50%;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container__modal__form .container_direita {
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transition: 0.5s;
+    padding: 0px 15px 0px 15px;
+}
+.container__modal__form .container_direita label{
+    font-weight: 600;
+    font-size:2.2rem;
+    color: var(--azul-claro);
+    margin-bottom: 10px;
+
+}
+.container__modal__form .container_direita span{
+    font-weight: 100;
+    font-size:1.2rem;
+    color: var(--azul-claro);
+
+}
+.boxLogin-Registro {
+    width: 100%;
+    margin-top: 30px;
+}
+.container__modal__form .container_direita .boxLogin-Registro label {
+    font-weight: 600;
+    font-size:1.5rem;
+    color: var(--azul-claro);
+}
+
+.react-responsive-modal-modal {
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+    border-radius: 0;
+}
+.container__form__button {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 20px;
+    flex-direction: column;
+    gap: 15px;
+}
+.boxLogin-Registro form button {
+    background-color: var(--azul-claro);
+    height: 46px;
+    border-radius: 5px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    padding: 0px 15px 0px 15px;
+    border: 0;
+    cursor: pointer;
+    color: white;
+    font-size: 1.3rem;
+}
+.boxLogin-Registro form button:nth-of-type(2) {
+    background-color: var(--magenta-vivo);
+}
+
+input {
+    width: 100%;
+    padding: 13px;
+    font-size: 13px;
+    color: #B62A77;
+    border: 2px solid #B62A77;
+    transition: 0.5s;
+    border-radius: 5px;
+    margin-top: 10px;
+    
+}
