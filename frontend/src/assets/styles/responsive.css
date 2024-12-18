@@ -59,7 +59,15 @@
     .header img {
         width: 200px !important;
     }
-
+    .nav--btn-mobille {
+        display: block !important;
+    }
+    .container__modal_login_imagem {
+        display: none;
+    }
+    .container__modal__form {
+        width: 100% !important;
+    }
 
 }
 
@@ -74,11 +82,5 @@
     }
     .container__text {
         font-size:1rem !important;
-    }
-    .container__modal_login_imagem {
-        display: none;
-    }
-    .container__modal__form {
-        width: 100% !important;
     }
 }
