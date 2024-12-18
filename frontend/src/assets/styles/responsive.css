@@ -5,7 +5,7 @@
     .main-nav {
         position: fixed;
         top: 0;
-        z-index: 999999;
+        z-index: 99;
     }
     .main-nav ul a li {
         flex-direction: column;
@@ -74,5 +74,11 @@
     }
     .container__text {
         font-size:1rem !important;
+    }
+    .container__modal_login_imagem {
+        display: none;
+    }
+    .container__modal__form {
+        width: 100% !important;
     }
 }
