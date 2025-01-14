@@ -1,6 +1,11 @@
 import '../Forum/Forum.css';
+
+
 import { RiSpeakFill } from "react-icons/ri";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
+
+
+import CardForum from '../CardForum/CardForum';
 
 function Forum(){
     return(
@@ -19,6 +24,7 @@ function Forum(){
                     </div>
                 </div>
             </div>
+            <CardForum></CardForum>
            </div>
         </>
     )

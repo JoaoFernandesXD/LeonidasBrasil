@@ -3,9 +3,9 @@ import '../CardForum/CardForum.css';
 
 function CardForum(){
     return(
-        <>
-        Olá sou um topico
-        </>
+       <div className='container__topico'>
+            
+       </div>
     )
 }
 
