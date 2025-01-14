@@ -11,3 +11,43 @@
     border-top: 2px solid #eee;
     margin: 0 auto;
 }
+.container__forum__info {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px 0px 10px;
+    align-items: center;
+}
+.container__forum__info h2 {
+    display: flex;
+    align-items: center;
+    gap:5px;
+    font-size: 2.0rem;
+    font-weight: 800;
+    color: var(--azul-claro);
+}
+.container__forum__pagination {
+    width: 71px;
+    height: 32px;
+    border-radius: 20px;
+    border: 1px solid #eee;
+    gap: 5px;
+    display: flex;
+    overflow: hidden;
+}
+.container__forum__pagination .arrow--pagination {
+    width: 32px;
+    height: 32px;
+    background: transparent;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--azul-claro);
+    cursor: pointer;
+}
+.arrow--pagination:hover {
+    background-color: #eee;
+    transition: 1s;
+}
