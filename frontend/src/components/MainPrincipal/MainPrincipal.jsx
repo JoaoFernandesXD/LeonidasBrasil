@@ -2,8 +2,10 @@ import HotRumors from '../HotRumors/HotRumors';
 import MainAlerta from '../MainAlerta/MainAlerta';
 import News from '../News/News';
 import ListConteudoYT from '../ListConteudoYT/ListConteudoYT';
+import Forum from '../Forum/Forum';
 
 import '../MainPrincipal/MainPrincipal.css';
+
 
 
 
@@ -14,6 +16,7 @@ function MainPrincipal(){
                 <HotRumors></HotRumors>
                 <News></News>
                 <ListConteudoYT></ListConteudoYT>
+                <Forum></Forum>
             </div>
     )
 }
